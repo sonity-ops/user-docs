@@ -4,7 +4,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Sonity',
-  tagline: 'Your #1 LinkedIn automation tool',
+  tagline: 'Learn how to build campaigns, automate outreach, and streamline your workflow with Sonity.',
   favicon: 'images/sonity.png',
 
   // Set the production url of your site here

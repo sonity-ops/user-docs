@@ -22,12 +22,26 @@ function HomepageHeader(): React.JSX.Element {
         paddingTop: "10%"
       }}>
       <div className="container">
-        <Heading as="h1" className="hero__title">
+        <Heading as="h1" className="hero__title" style={{
+          color: "#fff"
+        }}>
           {siteConfig.title}
         </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <p className="hero__subtitle" style={{
+          color: "#fff"
+        }}>{siteConfig.tagline}</p>
         <div className={styles.buttons}>
           <Link
+            style={{
+              color: '#ebedef',
+              background: '#28347e',
+              borderColor: 'transparent',
+              borderRadius: '2rem',
+              transition: 'transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease',
+              animation: 'pulse 1s ease-in-out infinite',
+              boxShadow: '0 0 0 0 rgba(40, 52, 126, 0.8), 0 0 24px rgba(40, 52, 126, 0.9)',
+              transform: 'scale(1.08)',
+            }}
             className="button button--secondary button--lg"
             to="/docs/intro">
             Get Started!
