@@ -17,10 +17,7 @@ Steps are defined from the **Steps Tab**. Most campaigns will come come with def
 
 Most steps will contain either all or some of the following options
 
-### 1. Like Post before interacton
-This will like a contact's post before sending the message. Interacting with a contact's content before sending an unsolicitated message or a connection request has been proven to increase success
-
-### 2. Template strings
+### 1. Template strings
 Instead of sending general messages, Sonity allows you to send personalized messages through template string for example if click firstname literal
 
 Hi `{firstname}`, how are you?
@@ -31,15 +28,25 @@ Hi **John**, how are you?
 Hi **Grace**, how are you?
 Hi **Mark**, how are you?
 
-### 3. Main Message
+
+### 2. Main Message
 Main message is the main message that gets send if no issues occur.
 
 
-### 4. Delay
+### 3. Like Post before interacton
+This will like a contact's post before sending the message. Interacting with a contact's content before sending an unsolicitated message or a connection request has been proven to increase success
+
+
+![Create a schedule posts campaign](/images/steps_02.png)
+
+
+### 4. Fallback Message
+When parsing issues occur, the fallback message gets sent. This ensures that the contact recieves the message even when an issue occur.
+
+### 5. Delay
 A step is usually executed immediately (As long as the driver is in its execution window). However you may prefer sending the message after a certain delay. For example if a contact accepts your message you wouldn't want to execute a welcome message immediately and it will look fishy.
 
-### 5. Fallback Message
-When parsing issues occur, the fallback message gets sent. This ensures that the contact recieves the message even when an issue occur.
+
 
 
 ## Types if steps
@@ -71,4 +78,4 @@ This is used to a message to to a contact. Unlike a Welcome or Connection messag
 
 This step is used to endorse a random skill for every contact in that campaign. You can use use this either before or after other steps
 
-![Create a schedule posts campaign](/images/steps_message_01.png)
+![Create a schedule posts campaign](/images/steps_endorsement.png)

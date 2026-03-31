@@ -5,10 +5,10 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'Sonity',
   tagline: 'Your #1 LinkedIn automation tool',
-  favicon: 'img/favicon.ico',
+  favicon: 'images/sonity.png',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://docs.sonity.net',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/user-docs/',
@@ -58,10 +58,17 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'Sonity',
+      title: '',
       logo: {
         alt: 'My Site Logo',
-        src: 'img/logo.png',
+        src: 'img/Sonity Logo-03.svg',
+        style: {
+          // width: '100px',
+          height: '230%',
+          position: "relative",
+          bottom: "70%",
+          left: "",
+        }
       },
       items: [
         {
