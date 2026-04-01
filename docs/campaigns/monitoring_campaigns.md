@@ -25,14 +25,17 @@ The TCP Summary Table show the status of your prospects but in more detail.
 
 ## Bottom Reports
 
-![Create a schedule posts campaign](/images/campaign_stats_02.png)
+
 
 In the bottom chart we have Events chart and the Metric gauges
 
 ### 1. Events Charts
+![Create a schedule posts campaign](/images/campaign_stats_events-01.png)
+
 Its a bar chart that shows prospect statuses by date. For example on 12 December 2024, 10 prospects were in Connect Req Status, 40 prospects were in Message status, 5 were in Withdrawn status.
 
 The **Time Of Operation** gives you fine grained control over the time of the Events chart
 
 ### 2. Metric Gauges
+![Create a schedule posts campaign](/images/campaign_stats_metric-01.png)
 Metric gauges gives you a percentage of the metric in question. For example a Connection metric of 25% tells that out of 200 contacts, 50 contacts connected successfully.
