@@ -1,4 +1,4 @@
-# What is a Connector Campaign
+# Connector Campaign
 
 A Connector campaign allows you send connection requests to prospects. The goal of a connection campaign is to increase your connections. 
 

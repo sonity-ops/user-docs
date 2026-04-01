@@ -1,4 +1,4 @@
-# What is a InMail Campaign
+# InMail Campaign
 
 InMail Campaigns allows to send automated messages to prospects whom you are not connected to. It's
 like send an unsolicitated email but with one twist, it always lands in their inbox.

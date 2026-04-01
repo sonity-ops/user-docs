@@ -1,4 +1,4 @@
-# What is a Messenger Campaign
+# Messenger Campaign
 
 A Messenger campaign allows you send automated messages to your contacts. The goal of a messenger campaign is to generate direct conversations and nurture potential leads.
 

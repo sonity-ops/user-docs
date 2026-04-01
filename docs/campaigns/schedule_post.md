@@ -1,4 +1,4 @@
-# What is a Schedule Posts Campaign
+# Schedule Posts Campaign
 
 A Schedule post campaign enables you to schedule posts in advance. After you have made your posts, Sonity will create the posts on LinkedIn for you.   
 
