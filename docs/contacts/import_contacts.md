@@ -1,4 +1,4 @@
-# How to import contacts
+# Importing Contacts
 
 Sonity also allows you to import contacts into campaigns and lists so you dont have to start from  scratch. Import
 
