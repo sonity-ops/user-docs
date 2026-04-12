@@ -45,7 +45,7 @@ This is of course ideal when you have a few specific contacts that you are targe
 
 #### Method 3: Upload CSV File
 
-You can also [add contacts by using a CSV file](../../docs/integration/import_contacts). Upload the file and follow the prompts:
+You can also [add contacts by using a CSV file](../../docs/contacts/import_contacts). Upload the file and follow the prompts:
 
 ![Create a connector campaign](/images/create_connector_campaign_03c.png)
 

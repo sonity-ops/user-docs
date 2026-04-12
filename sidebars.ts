@@ -16,6 +16,10 @@ const sidebars: SidebarsConfig = {
     {
       type: "category",
       label: "Campaigns",
+      link: {
+        type: "generated-index",
+        slug: "/category/campaigns",
+      },
       items: [
         "campaigns/what are campaigns",
         "campaigns/auto_accept",
@@ -31,11 +35,19 @@ const sidebars: SidebarsConfig = {
     {
       type: "category",
       label: "Contacts",
+      link: {
+        type: "generated-index",
+        slug: "/category/contacts",
+      },
       items: ["contacts/import_contacts", "contacts/export_contacts"],
     },
     {
       type: "category",
       label: "Integration",
+      link: {
+        type: "generated-index",
+        slug: "/category/integration",
+      },
       items: [
         "integration/supported",
         "integration/webhook",
@@ -45,6 +57,10 @@ const sidebars: SidebarsConfig = {
     {
       type: "category",
       label: "Managing your Account",
+      link: {
+        type: "generated-index",
+        slug: "/category/managing-your-account",
+      },
       items: [
         "managing_your_account/how_to_add_a_profile",
         "managing_your_account/profile_limits_exceeded",
@@ -53,6 +69,10 @@ const sidebars: SidebarsConfig = {
     {
       type: "category",
       label: "Using Sonity",
+      link: {
+        type: "generated-index",
+        slug: "/category/using-sonity",
+      },
       items: [
         "using_sonity/effective_automation",
         "using_sonity/turning_off_browser",
