@@ -22,6 +22,7 @@ Set reasonable limits on the number of connection requests, messages, and profil
 You can set or adjust your activity limits from the Profiles page.
 
 
+<!--
 ## Personalized Messaging
 
 ![Create a schedule posts campaign](/images/effective_automation/1.png)
@@ -37,18 +38,18 @@ Sonity also allows you to use AI to generate more personal messages from the 'Va
     3. Checking this option tells Sonity that you’d like to use this variant message in your campaign and unchecking it means you don’t want to include it.
     4. The edit action. This allows you edit your variant text as you see fit.
     5. The delete option. This removes the variant text from your “Variant Text” table   
+-->
 
 
 
 ## Monitor and adjust
 Regularly monitor the performance of your automation tool. Adjust your settings based on the responses and engagement you receive. If certain actions are not yielding positive results, consider tweaking your approach. You can monitor your campaign from the Reports section of your campaign.
-![Create a schedule posts campaign](/images/effective_automation/tcp-chart.png)
 
-The metrics for your campaign are located under the Stats tab of your campaign. These show you an overview of how you campaign is going. The TCP chart shows you all the statuses for your prospects in your campaign and also how many prospects are at each stage of your campaign. The TCP summary table contains the same information but in a tabular format with exact figures. 
+For more information check this guide:
 
-![Create a schedule posts campaign](/images/effective_automation/tcp-event-metrics.png)
+[Reports section of your campaign](docs/campaigns/monitoring_campaigns).
 
-Below the TCP Chart and Table, is the Events chart, which shows you all the events that were triggered in your campaign and when they were triggered. You can use these stats to determine when certain events are likely to occur for your campaign and adjust it accordingly. The metrics section is an overview of four important stats, the connection metric, the meeting metric, the replied to metric and the disconnected metric. [Need to find out how these are calculated and use that to emphasize their use to the user.]
+
 
 
 ## Use Proxies
