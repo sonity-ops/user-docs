@@ -4,7 +4,7 @@ sidebar_position: 999
 
 # Campaign Steps
 
-After creating your campaign and adding contacts, Sonity needs to know how it will execute the campaign, thats where **Steps** come in!. Steps in Sonity are like what a recipe is to a chef and they define every step that Sonity to execute for each and every contact in the campaign.
+After creating your campaign and adding contacts, Sonity needs to know how it will execute the campaign, that's where **Steps** come in. Steps in Sonity are like what a recipe is to a chef, and they define every action Sonity needs to execute for each contact in the campaign.
 
 ![Create a schedule posts campaign](/images/steps_example.png)
 

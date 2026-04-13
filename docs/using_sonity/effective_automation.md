@@ -4,6 +4,8 @@ sidebar_position: 6
 
 # Tips and Tricks for Effective Automation
 
+Estimated reading time: 5 minutes.
+
 ## Start Slow and Gradual
 
 Initiate with a slow and gradual automation approach to prevent triggering LinkedIn's spam filters. Mirror natural human behavior by incrementally increasing connection requests and messages.
@@ -47,7 +49,7 @@ Regularly monitor the performance of your automation tool. Adjust your settings 
 
 For more information check this guide:
 
-[Reports section of your campaign](docs/campaigns/monitoring_campaigns).
+[Reports section of your campaign](/docs/campaigns/monitoring_campaigns).
 
 
 
@@ -62,7 +64,7 @@ Under your profile settings, click on the Proxy dropdown to reveal the new proxy
 
 ![Create a schedule posts campaign](/images/effective_automation/new-proxy-blank.png)
  
-Give your proxy a name and specify the host (as an IP e.g. 127.0.0.1) and the port Sonity can use to connect to it. If yourproxy is passwod protected, check the “Password protected” option and it will reveal another section you can use to enter the authentication details to connect to it.
+Give your proxy a name and specify the host (as an IP e.g. 127.0.0.1) and the port Sonity can use to connect to it. If your proxy is password protected, check the “Password protected” option and it will reveal another section you can use to enter the authentication details to connect to it.
 
 ![Create a schedule posts campaign](/images/effective_automation/new-proxy-password.png)
 

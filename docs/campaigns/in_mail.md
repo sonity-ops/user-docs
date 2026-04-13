@@ -1,17 +1,16 @@
 # InMail Campaign
 
-InMail Campaigns allows to send automated messages to prospects whom you are not connected to. It's
-like send an unsolicitated email but with one twist, it always lands in their inbox.
+InMail campaigns allow you to send automated messages to prospects you are not connected to. It is similar to sending an unsolicited email, but with one key difference: it goes directly to the recipient's LinkedIn inbox.
 
 You must upgrade to a Premium account to use InMail messages. You can’t message a member if they’ve chosen not to receive InMail messages in their message preferences settings.
 
 You’re allotted a specific number of InMail message credits based on your subscription type. You can find the number of InMail message credits you have from your My Premium page.
 
 
-## How to create a Inmail Campaign
+## How to create an InMail Campaign
 
-### Step 1: Click New Inamil Campaign
-Navigate to the Home page and click New Connector Campaign:
+### Step 1: Click New InMail Campaign
+Navigate to the Home page and click New InMail Campaign:
 
 ![Create a connector campaign](/images/inmail_campaign_01.png)
 
@@ -29,7 +28,7 @@ After you campaign is created you need to add contacts to the campaign. There ar
 
 #### Method 1: LinkedIn Search
 
-Topo get a the Search URL use LinkedIn search or Sales Nav search, enter your criteria, copy the URL then paste it in Search URL entry:
+To get the Search URL, use LinkedIn search or Sales Navigator search, enter your criteria, copy the URL, then paste it in the Search URL field:
 
 ![Add contacts by linkedin search](/images/inmail_campaign_03.png)
 

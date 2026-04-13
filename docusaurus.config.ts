@@ -4,7 +4,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Sonity',
-  tagline: 'Learn how to build campaigns, automate outreach, and streamline your workflow with Sonity.',
+  tagline: 'Set up your first LinkedIn automation campaign in under 5 minutes.',
   favicon: 'images/sonity.png',
 
   // Set the production url of your site here
@@ -19,7 +19,11 @@ const config: Config = {
   projectName: 'user-docs', // Usually your repo name.
 
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: 'warn',
+    },
+  },
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
@@ -35,17 +39,9 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -60,7 +56,7 @@ const config: Config = {
     navbar: {
       title: '',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'Sonity',
         src: 'img/Sonity Logo-03.svg',
         style: {
           // width: '100px',
@@ -75,9 +71,8 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Support',
+          label: 'Docs',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
         // {
         //   href: 'https://github.com/facebook/docusaurus',
         //   label: 'GitHub',
@@ -92,8 +87,16 @@ const config: Config = {
           title: 'Docs',
           items: [
             {
+              label: 'Getting Started',
+              to: '/docs/intro',
+            },
+            {
               label: 'Campaigns',
               to: '/docs/category/campaigns',
+            },
+            {
+              label: 'Contacts',
+              to: '/docs/category/contacts',
             },
             {
               label: 'Integration',
@@ -122,10 +125,6 @@ const config: Config = {
           title: 'More',
           items: [
             {
-              label: 'Blog',
-              to: '/blog',
-            },
-            {
               label: 'Website',
               href: 'https://sonity.info',
             },
@@ -137,6 +136,11 @@ const config: Config = {
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
+    },
+    colorMode: {
+      defaultMode: 'light',
+      disableSwitch: false,
+      respectPrefersColorScheme: true,
     },
   } satisfies Preset.ThemeConfig,
 };

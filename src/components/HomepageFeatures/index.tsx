@@ -23,6 +23,17 @@ const FeatureList: FeatureItem[] = [
     ),
   },
   {
+    title: 'Contacts',
+    link: '/docs/category/contacts',
+    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    description: (
+      <>
+        Import contacts from search, profile URLs, or CSV files and keep lists organized
+        for each campaign.
+      </>
+    ),
+  },
+  {
     title: 'Integration',
     link: '/docs/category/integration',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
@@ -59,17 +70,14 @@ const FeatureList: FeatureItem[] = [
 
 function Feature({title, Svg, description, link}: FeatureItem) {
   return (
-    
       <div className={clsx('col col--4')}>
-        
       <div className="text--center">
         {/* <Svg className={styles.featureSvg} role="img" /> */}
       </div>
       <div className="padding-horiz--md">
-      <Link href={link}><Heading as="h3">{title}</Heading> </Link>
+      <Link href={link}><Heading as="h3">{title}</Heading></Link>
         <p>{description}</p>
       </div>
-     
     </div>
   );
 }

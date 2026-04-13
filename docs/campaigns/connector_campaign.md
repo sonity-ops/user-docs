@@ -4,8 +4,9 @@ A Connector campaign allows you send connection requests to prospects. The goal 
 
 You can also use these connections in later campaigns
 
+Estimated reading time: 5 minutes.
 
-## How to create a Connecter Campaign
+## How to create a Connector Campaign
 
 ### Step 1: Click New Connector Campaign
 Navigate to the Home page and click New Connector Campaign:
@@ -26,7 +27,7 @@ After you campaign is created you need to add contacts to the campaign. There ar
 
 #### Method 1: LinkedIn Search
 
-Topo get a the Search URL use LinkedIn search or Sales Nav search, enter your criteria, copy the URL then paste it in Search URL entry:
+To get the Search URL, use LinkedIn search or Sales Navigator search, enter your criteria, copy the URL, then paste it in the Search URL field:
 
 ![Create a connector campaign](/images/create_connector_campaign_03a.png)
 
@@ -52,3 +53,9 @@ You can also [add contacts by using a CSV file](../../docs/contacts/import_conta
 After this is done it should take you to the People Tab:
 
 ![Upload contacts from CSV](/images/inmail_campaign_04.png)
+
+### Step 4: Add steps and launch
+
+Once contacts are added, open the **Steps** tab and define how Sonity should execute this campaign. If you need help with this part, follow [Campaign Steps](/docs/campaigns/campaign_steps).
+
+After configuring your steps, launch the campaign and monitor progress from your reports.

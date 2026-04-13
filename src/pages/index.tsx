@@ -57,8 +57,8 @@ export default function Home(): React.JSX.Element {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={`${siteConfig.title} Docs`}
+      description="Practical guides for building and running LinkedIn automation campaigns with Sonity.">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
