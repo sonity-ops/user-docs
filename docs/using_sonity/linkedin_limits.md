@@ -2,28 +2,36 @@
 sidebar_position: 5
 ---
 
-# LinkedIn limits and safe usage
+# LinkedIn Limits
 
-Estimated reading time: 5 minutes.
+Estimated reading time: 3 minutes.
 
-LinkedIn enforces activity limits. Running campaigns too aggressively can reduce deliverability or trigger restrictions.
+Sonity automates LinkedIn activity for you and manages account safety limits.
 
-## Safe usage guidelines
+You control campaign intensity (daily volume, campaign type, and schedule), and Sonity enforces protection rules in the background.
 
-1. Start with conservative daily limits.
-2. Increase activity gradually over several days.
-3. Space actions naturally using delays.
-4. Avoid sending identical messages at high volume.
-5. Use profile-level limits for each account.
+If those limits are exceeded, Sonity can throttle your account activity to prevent additional LinkedIn action blocks.
 
-## Practical baseline
+## How Sonity handles limits
 
-Use a lower baseline when starting with a new profile, then scale only if response and acceptance rates remain healthy.
+1. Sonity monitors account activity and pacing.
+2. Sonity applies throttling when risk signals appear.
+3. Sonity can delay, pause, or reduce actions automatically.
+4. Sonity cannot force actions when LinkedIn has already blocked them.
 
-## Warning signs to watch
+## What you may see when limits are exceeded
 
-1. Sudden drop in connection acceptance.
-2. Message delivery issues.
-3. Campaign pauses due to limit checks.
+1. Temporary slowdown in campaign execution.
+2. Delayed or paused actions.
 
-When these happen, reduce limits and allow a recovery period before increasing again.
+## Recommended operating ranges
+
+- Connection requests: usually `80-100/day` on healthy paid accounts.
+- Free accounts: significantly lower safe ranges, especially with notes.
+- Profile retrieval: around `100/day` per account is a common safe baseline.
+- Search retrieval: split broad searches into smaller filtered segments.
+- InMail: keep activity paced and randomized.
+
+## Final note
+
+As Sonity, we manage automation limits for your account. If thresholds are exceeded, we can throttle account activity to protect account health and reduce LinkedIn restrictions.
