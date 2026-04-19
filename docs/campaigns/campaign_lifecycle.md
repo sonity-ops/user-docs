@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # Campaign Lifecycle
 
-![Create a schedule posts campaign](/images/campaign_lifecyle.png)
+![Create a schedule posts campaign](/images/campaign_lifecycle.png)
 
 A campaign in Sonity follows a structured lifecycle, from planning your outreach to scaling what works.
 
