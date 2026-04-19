@@ -22,6 +22,7 @@ const sidebars: SidebarsConfig = {
       },
       items: [
         "campaigns/what are campaigns",
+        "campaigns/campaign_lifecycle",
         "campaigns/which_campaign_type",
         "campaigns/auto_accept",
         "campaigns/connector_campaign",
