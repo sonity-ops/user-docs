@@ -2,8 +2,8 @@
 
 When using the AI to generate posts, you may encounter errors. Here are some common errors and how to resolve them.
 
-:::tip
-These errors will be displayed on your far right bottom
+:::note
+These errors will be displayed in the bottom-right corner of the app.
 :::
 
 ## Wrong API Key
