@@ -99,6 +99,10 @@ const config: Config = {
               to: '/docs/category/contacts',
             },
             {
+              label: 'Using AI',
+              to: '/docs/category/using-ai',
+            },
+            {
               label: 'Integration',
               to: '/docs/category/integration',
             },

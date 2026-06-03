@@ -58,6 +58,20 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: "category",
+      label: "Using AI",
+      link: {
+        type: "generated-index",
+        slug: "/category/using-ai",
+      },
+      items: [
+        "using-ai/introduction",
+        "using-ai/generating_steps",
+        "using-ai/generating_posts",
+        "using-ai/ai_errors",
+      ],
+    },
+    {
+      type: "category",
       label: "Managing your Account",
       link: {
         type: "generated-index",
