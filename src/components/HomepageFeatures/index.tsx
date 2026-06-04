@@ -33,6 +33,7 @@ const FeatureList: FeatureItem[] = [
       </>
     ),
   },
+  
   {
     title: 'Integration',
     link: '/docs/category/integration',
@@ -41,6 +42,16 @@ const FeatureList: FeatureItem[] = [
       <>
         Sonity allows you to integrate with different platforms and tools. This guide 
         teaches you how to accomplish that.
+      </>
+    ),
+  },
+  {
+    title: "Using AI",
+    link: '/docs/category/using-ai',
+    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    description: (
+      <>
+        You can use AI to generate campaign content such as campaign steps and posts, emails and more. This guide will teach you how to use AI with Sonity.
       </>
     ),
   },
