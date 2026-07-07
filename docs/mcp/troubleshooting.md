@@ -38,7 +38,7 @@ Your token only allows reading, but you tried to do something that writes data (
 
 Re-authorize via the in-app dialog. The dialog asks for `mcp:read mcp:write profile sonity_account_id` by default — make sure you didn't uncheck `mcp:write` on the consent page. If you approved a read-only token before, click **Remove MCP authorization** first, then **Authorize MCP** again to start fresh.
 
-## "Step N ('...') references variables `{name}`, `{company}` but has no fallback_text"
+## "Step N ('...') references variables like {name} or {company} but has no fallback_text"
 
 You created a campaign step that uses personalization placeholders like `{name}` or `{company}` (so the message says "Hi {name}, ...") but didn't tell the server what to put in if we don't know the lead's name.
 
@@ -47,7 +47,7 @@ You created a campaign step that uses personalization placeholders like `{name}`
 Pick one of these:
 
 - Add a `fallback_text` to the step — a safe generic version of the message that's used when we don't have the lead's info, **or**
-- Pass `auto_fallback: true` when you create the step, and the server will fill in generic replacements automatically (`{name}`→`there`, `{company}`→`your company`, etc.).
+- Pass `auto_fallback: true` when you create the step, and the server will fill in generic replacements automatically (for example `{name}` becomes "there", `{company}` becomes "your company", and so on).
 
 See [The `{variable}` fallback rule](./tools#the-variable-fallback-rule) for the full list of replacements.
 
