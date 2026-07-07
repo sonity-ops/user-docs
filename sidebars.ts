@@ -72,6 +72,21 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: "category",
+      label: "MCP",
+      link: {
+        type: "generated-index",
+        slug: "/category/mcp",
+      },
+      items: [
+        "mcp/introduction",
+        "mcp/authentication",
+        "mcp/connecting",
+        "mcp/tools",
+        "mcp/troubleshooting",
+      ],
+    },
+    {
+      type: "category",
       label: "Managing your Account",
       link: {
         type: "generated-index",
