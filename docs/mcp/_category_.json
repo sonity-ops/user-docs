@@ -1,0 +1,8 @@
+{
+  "label": "MCP",
+  "position": 7,
+  "link": {
+    "type": "generated-index",
+    "description": "Connect Sonity to AI tools like Claude, Cursor, and Zed through the Model Context Protocol."
+  }
+}

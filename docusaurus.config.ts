@@ -20,6 +20,7 @@ const config: Config = {
 
   onBrokenLinks: 'throw',
   markdown: {
+    mermaid: true,
     hooks: {
       onBrokenMarkdownLinks: 'warn',
     },
@@ -32,7 +33,15 @@ const config: Config = {
     defaultLocale: 'en',
     locales: ['en'],
   },
- plugins: [require.resolve('docusaurus-lunr-search')],
+  plugins: [
+    require.resolve('docusaurus-lunr-search'),
+    [
+      require.resolve('@docusaurus/theme-mermaid'),
+      {
+        theme: { light: 'light', dark: 'dark' },
+      },
+    ],
+  ],
   presets: [
     [
       'classic',
@@ -101,6 +110,10 @@ const config: Config = {
             {
               label: 'Using AI',
               to: '/docs/category/using-ai',
+            },
+            {
+              label: 'MCP',
+              to: '/docs/category/mcp',
             },
             {
               label: 'Integration',
