@@ -15,6 +15,20 @@ const sidebars: SidebarsConfig = {
     "intro",
     {
       type: "category",
+      label: "Getting Started",
+      link: {
+        type: "generated-index",
+        slug: "/category/getting_started",
+      },
+      items: [
+        "getting_started/getting_started",
+        "getting_started/setting_up_2fa",
+        "getting_started/adding_profile",
+        "getting_started/running_your_first_campaign",
+      ],
+    },
+    {
+      type: "category",
       label: "Campaigns",
       link: {
         type: "generated-index",
