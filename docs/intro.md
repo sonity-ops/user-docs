@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Getting started with Sonity
+# Introduction
 
 Let's discover **Sonity in less than 5 minutes**.
 
@@ -22,44 +22,29 @@ Sonity's AI-driven algorithms ensure optimal results by automating repetitive ta
 
 ## How does Sonity work
 
-You start by creating a campaign and defining its steps. Then, you add contacts to the campaign through various methods.
-Once the campaign is set up, Sonity automatically performs each step for every contact, moving them through the campaign based on their progress.
+1. You add your profile
+2. You create a campaign and define campaign steps
+3. Sonity does the rest
 
-## Your first campaign in 5 minutes
+:::tip
+Sonity also support steps generation using AI
+:::
 
-Estimated reading time: 5 minutes.
 
-1. Create a new Connector Campaign from the Home page.
 
-![Create a connector campaign](/images/create_connector_campaign_01.png)
 
-2. Give the campaign a name, and optionally pick a seed campaign.
-
-![Enter campaign details](/images/create_connector_campaign_02.png)
-
-3. Add contacts using one of three methods:
-
-- LinkedIn/Sales Navigator search URL
-- Profile URLs
-- CSV import
-
-![Add contacts to campaign](/images/create_connector_campaign_03a.png)
-
-4. Open the **Steps** tab and configure your message flow. If you are not sure where to start, follow [Campaign Steps](/docs/campaigns/campaign_steps).
-
-5. Launch and monitor results from your campaign reports. See [Monitoring Campaigns](/docs/campaigns/monitoring_campaigns).
-
-## Components of Sonity
+## FAQ
 Sonity has many components, but here are just a few:
 
-* **Campaigns**
+* **What is a Campaign?**
     * A collection of steps designed to achieve a specific goal.
-* **Contacts**
+* **What are contacts?**
     * A list of individuals or companies targeted by a campaign.
-    * Can be imported or exported from a campaign.
-* **Steps**
+    * Contacts are added to a campaign via running a search & collect, CSV import or reusing exisiting contacts
+* **What are Steps?**
     * Individual actions within a campaign (e.g., send connection request, send message).
-* **Profiles**
-    * Represents the user account performing actions within the campaign.
-* **Webhooks**
-    * Real-time notifications about campaign events and data.
+* **What is a Profile?**
+    * Represents the user account performing actions within the campaign. This profile maps to a a social media account.
+* **What are webhooks?**
+    * A webhook is a URL that recieves real time events and notifications. 
+    * In Sonity they are used for receiving realtime updates on what is taking place in the app
